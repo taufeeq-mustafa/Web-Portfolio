@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pontano+Sans:wght@300..700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pontano+Sans:wght@300..700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pontano+Sans:wght@300..700&family=Staatliches&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Telex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.header{
+    width: auto;
+    height: 235px;
+    background-color: aqua;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    border-bottom: solid black;
+    border: 1px;
+    border-top: 15px solid darkblue;
+}
+
+.right h2{
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 30px;
+    /* font-size: small; */
+}
+
+.material-icons.md-60 { font-size: 60px; }
+
+.right p{
+    font-family: "Arsenal", sans-serif; 
+}
+
+.left{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    /* align-content: center; */
+    float: left;
+    border-bottom: 2px solid lightgray;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 0px ;
+    margin-top: 0px;
+  }
+
+.right{
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    float: right;
+    border-bottom: 2px solid lightgray;
+}
+
+.about{
+    height: 355px;
+    width: auto;
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-bottom: 2px solid lightgray;
+    
+}
+
+.me{
+    width:65%;
+    height:98%;
+    background-color: white;
+    float: left;
+    /* border-bottom: 5px solid lightgray; */
+}
+
+
+.experiance{
+    width: 30%;
+    height: 98%;
+    background-color: white;
+    float: right;
+    /* border-bottom: 5px solid lightgray; */
+}
+
+.me h1{
+    font-family: "Pontano Sans", sans-serif;
+}
+
+.experiance h1{
+    font-family: "Pontano Sans", sans-serif;
+}
+
+
+.me p{
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 18px;
+    color: #31363F;
+}
+
+.experiance h5{
+    font-family: "Oswald", sans-serif;
+    margin: 0px;
+    padding: 0px; 
+    font-size: 18px;
+}
+
+.experiance p{
+    font-family: "Telex", sans-serif;
+    margin-top: 5px;
+    /* margin-bottom: 0px; */
+    padding: 0px;
+}
+
+.portfolio{
+    width: auto;
+    height: auto;
+    /* background-color: beige; */
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.portfolio h1{
+    font-family: "Pontano Sans", sans-serif;
+}
+
+.my-works{
+    height: 355px;
+    width: auto;
+    background-color: beige;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+.bottom-side{
+    height: 355px;
+    width: auto;
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px
+}
+
+.b-left{
+    width: 50%;
+    float: left;
+    background-image: url('bargain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.b-right{
+    width: 50%;
+    float: left;
+    background-image: url('retail.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.my-works h4{
+    margin-top: 2%;
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.bottom-side h4{
+    margin-top: 2%;
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+
+.left-side{
+    width: 50%;
+    float: left;
+    background-image: url('mug.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.right-side{
+    width: 50%;
+    float: left;
+    background-image: url('dash1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+    
+.btn {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        opacity: 0.7;
+        transition: 0.3s;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        margin: 0px auto;
+        vertical-align: middle;
+        margin-top: 25%;
+    }
+      
+.btn:hover {opacity: 0.6}
+
+.contact{
+    height: 235px;
+    width: auto;
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-bottom: 15px solid darkblue;
+}
+
+.contact p{
+    font-size: 20px;
+    font-family: "Wix Madefor Text", sans-serif;
+    
+}
+
+
